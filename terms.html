@@ -1,66 +1,100 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terms of Service — Filosofia e IA Publisher</title>
-<style>
-:root { color-scheme: light dark; }
-* { box-sizing: border-box; }
-body { margin: 0; padding: 2.5rem 1.25rem 4rem; font: 16px/1.65 -apple-system, BlinkMacSystemFont,
-  "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1a1a1a; background: #fdfdfc; }
-main { max-width: 44rem; margin: 0 auto; }
-h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 1.5rem; }
-h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem; }
-p, li { color: #26262b; }
-a { color: #1c5fd6; }
-code { background: #f0f0ee; padding: .1em .35em; border-radius: 3px; font-size: .9em; }
-table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; font-size: .94rem; }
-th, td { border: 1px solid #dcdcd8; padding: .55rem .7rem; text-align: left; vertical-align: top; }
-th { background: #f5f5f2; }
-.meta { color: #6b6b73; font-size: .92rem; border-bottom: 1px solid #e4e4e0; padding-bottom: 1.25rem; }
-nav { margin-bottom: 2rem; font-size: .94rem; }
-footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #e4e4e0;
-  color: #6b6b73; font-size: .88rem; }
-@media (prefers-color-scheme: dark) {
-  body { background: #16161a; color: #e8e8ea; }
-  p, li { color: #d6d6da; }
-  a { color: #8ab4ff; }
-  code { background: #26262c; }
-  th, td { border-color: #33333a; } th { background: #1f1f25; }
-  .meta, footer { color: #9a9aa3; border-color: #2a2a31; }
-}
-</style>
-</head>
-<body><main>
-<nav><a href="./">Home</a> · <strong>Terms of Service</strong> · <a href="privacy.html">Privacy Policy</a></nav>
-<h1>Terms of Service — "Filosofia e IA — Publisher"</h1>
-<p class="meta"><strong>Last updated:</strong> September 10, 2026 <strong>Operator:</strong> Edson Almeida ("the operator"), individual creator, Brazil <strong>Contact:</strong> filosofoedson@gmail.com</p>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terms of Service — Filosofia e IA — Publisher</title>
+<meta name="description" content="Publishing and analytics tool of the educational TikTok channel @prof.edson.almeida — philosophy and artificial intelligence.">
+<link rel="icon" type="image/png" sizes="64x64" href="icon-64.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#121c2e">
+<style>:root{color-scheme:light dark;--bg:#fbfaf7;--fg:#1a1f2b;--mut:#5f6472;--card:#fff;--line:#e6e3dc;
+--navy:#121c2e;--gold:#c8912f;--gold2:#e2b454;--teal:#2a93a8;--code:#f1efe9}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--teal)}code{font-size:.88em;background:var(--code);padding:.1em .35em;border-radius:4px}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1rem}
+header.top{background:var(--navy);color:#f3ecdc}
+header.top .wrap{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;padding-top:.8rem;padding-bottom:.8rem}
+.brand{display:flex;align-items:center;gap:.6rem;color:#f3ecdc;text-decoration:none;font-weight:650;margin-right:auto}
+.brand img{width:36px;height:36px;border-radius:8px}
+nav.menu{display:flex;flex-wrap:wrap;gap:.2rem .9rem;font-size:.93rem}
+nav.menu a{color:#d9d2c2;text-decoration:none;padding:.15rem 0;border-bottom:2px solid transparent}
+nav.menu a:hover{color:#fff}nav.menu a.on{color:var(--gold2);border-bottom-color:var(--gold2)}
+.hero{background:linear-gradient(180deg,var(--navy),#1a2740);color:#f3ecdc;padding:3.2rem 0 3.6rem}
+.hero .wrap{display:flex;gap:2rem;align-items:center;flex-wrap:wrap}
+.hero img{width:132px;height:132px;border-radius:26px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.hero h1{font-size:2.1rem;line-height:1.2;margin:0 0 .5rem;color:#fff}
+.hero p{margin:0 0 1.3rem;color:#d9d2c2;max-width:36rem;font-size:1.06rem}
+.hero .txt{flex:1;min-width:16rem}
+.btn{display:inline-block;padding:.6rem 1.1rem;border-radius:8px;text-decoration:none;font-weight:600;margin:0 .5rem .5rem 0;border:1px solid var(--gold2)}
+.btn.p{background:var(--gold2);color:#1a1405}.btn.s{color:var(--gold2)}
+main{padding:2.4rem 0 1rem}
+main h1{font-size:1.8rem;line-height:1.25;margin:0 0 .4rem}
+h2{font-size:1.3rem;margin:2.4rem 0 .8rem}h3{font-size:1.02rem;margin:0 0 .35rem}
+.lead{color:var(--mut);font-size:1.05rem;margin:0 0 1.6rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:1rem}
+.grid.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.2rem}
+.card p{margin:0;color:var(--mut);font-size:.95rem}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:.8rem}
+.steps li{counter-increment:s;position:relative;padding:.9rem 1rem .9rem 3.4rem;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.steps li:before{content:counter(s);position:absolute;left:1rem;top:.9rem;width:1.6rem;height:1.6rem;border-radius:50%;background:var(--navy);color:var(--gold2);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+.steps li p{margin:0;color:var(--mut);font-size:.95rem}
+table{border-collapse:collapse;width:100%;font-size:.93rem;background:var(--card)}
+th,td{text-align:left;padding:.55rem .7rem;border:1px solid var(--line);vertical-align:top}
+th{background:var(--code);font-weight:600}td.n{text-align:right;font-variant-numeric:tabular-nums}
+.tbl{overflow-x:auto}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.75rem 1rem;margin:0 0 .6rem}
+summary{cursor:pointer;font-weight:600}details p{margin:.6rem 0 0;color:var(--mut)}
+.meta{color:var(--mut);font-size:.92rem;border-bottom:1px solid var(--line);padding-bottom:1rem}
+.legal p,.legal li{max-width:46rem}
+button{font:inherit;padding:.55rem 1rem;border:1px solid var(--navy);background:var(--navy);color:#fff;border-radius:8px;cursor:pointer}
+button:disabled{opacity:.55;cursor:default}
+select{font:inherit;padding:.45rem .5rem;border:1px solid var(--line);border-radius:8px;max-width:100%;background:var(--card);color:inherit}
+.row{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}.sub{color:var(--mut)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.2rem;margin-bottom:1rem}
+.panel h2{margin-top:0}
+footer.bot{margin-top:3rem;background:var(--navy);color:#b9b2a3;font-size:.9rem}
+footer.bot .wrap{display:flex;gap:1rem 2rem;flex-wrap:wrap;align-items:center;padding-top:1.4rem;padding-bottom:1.4rem}
+footer.bot img{width:28px;height:28px;border-radius:6px}footer.bot a{color:#e2d7bd}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#10141d;--fg:#e8e6e1;--mut:#a3a7b3;--card:#171d29;--line:#2a3140;--code:#222a38;--teal:#6cc3d6}}
+@media(max-width:560px){.hero h1{font-size:1.65rem}.hero img{width:96px;height:96px}}</style></head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app"><img src="icon-180.png" alt="Filosofia e IA owl logo"><span>Filosofia e IA — Publisher</span></a><nav class="menu"><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app">Home</a><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app?page=how">How it works</a><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app?page=console">Console</a><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app?page=about">About</a><a href="https://edsonflor.github.io/tiktok-app-legal/terms.html" class="on">Terms</a><a href="https://edsonflor.github.io/tiktok-app-legal/privacy.html">Privacy</a></nav></div></header>
+<main class="legal"><div class="wrap">
+<h1>Terms of Service</h1>
+<p class="meta"><strong>Last updated:</strong> September 23, 2026 · <strong>Operator:</strong> Edson Almeida ("the operator"),
+individual creator, Brazil · <strong>Contact:</strong> filosofoedson@gmail.com</p>
 <h2>1. What this software is</h2>
-<p>"Filosofia e IA — Publisher" (the "Tool") is a private, single-creator publishing tool. It uploads short educational videos — produced by the operator's own content pipeline — to the operator's own social media accounts, including the TikTok account <code>@prof.edson.almeida</code>, and reads back the performance of those same videos so the operator can decide what to produce next.</p>
+<p>"Filosofia e IA — Publisher" (the "Tool") is a private, single-creator publishing tool. It uploads short educational
+videos — produced by the operator's own content pipeline — to the operator's own social media accounts, including the
+TikTok account <code>@prof.edson.almeida</code>, and reads back the performance of those same videos so the operator can
+decide what to produce next.</p>
 <h2>2. Who may use it</h2>
-<p>The Tool is used exclusively by the operator, on accounts owned by the operator. It is not offered to the public, is not sold, sublicensed or resold, and does not accept registrations from third parties. No other person is granted access to it.</p>
+<p>The Tool is used exclusively by the operator, on accounts owned by the operator. It is not offered to the public, is
+not sold, sublicensed or resold, and does not accept registrations from third parties. No other person is granted access to it.</p>
 <h2>3. What the Tool does and does not do</h2>
 <p>The Tool:</p>
-<ul><li>authenticates against TikTok using the official Content Posting API and TikTok API for Business,</li></ul>
-<p>with the account holder's explicit authorization;</p>
-<ul><li>uploads video files the operator produced, together with their captions;</li><li>discloses AI-generated content using TikTok's own disclosure flag whenever the video was produced</li></ul>
-<p>with generative AI;</p>
-<ul><li>reads metrics of the operator's own published videos.</li></ul>
+<ul><li>authenticates against TikTok using the official Login Kit, Content Posting API and Display API, with the account
+holder's explicit authorization;</li>
+<li>uploads video files the operator produced, together with their captions;</li>
+<li>discloses AI-generated content using TikTok's own disclosure flag whenever the video was produced with generative AI;</li>
+<li>reads metrics of the operator's own published videos.</li></ul>
 <p>The Tool does not:</p>
-<ul><li>post on behalf of any account other than the operator's own;</li><li>collect, store or process data belonging to other TikTok users;</li><li>scrape TikTok, automate engagement (likes, follows, comments), or attempt to influence rankings by</li></ul>
-<p>artificial means;</p>
-<ul><li>publish content that violates TikTok's Community Guidelines or Terms of Service.</li></ul>
+<ul><li>post on behalf of any account other than the operator's own;</li>
+<li>collect, store or process data belonging to other TikTok users;</li>
+<li>scrape TikTok, automate engagement (likes, follows, comments), or attempt to influence rankings by artificial means;</li>
+<li>publish content that violates TikTok's Community Guidelines or Terms of Service.</li></ul>
 <h2>4. Content</h2>
-<p>All content published through the Tool is created by the operator and remains the operator's responsibility. The operator warrants that the content complies with the platform's Community Guidelines and with applicable Brazilian law, and that any third-party material used is properly licensed or falls within lawful quotation of academic sources.</p>
+<p>All content published through the Tool is created by the operator and remains the operator's responsibility. The
+operator warrants that the content complies with the platform's Community Guidelines and with applicable Brazilian law,
+and that any third-party material used is properly licensed or falls within lawful quotation of academic sources.</p>
 <h2>5. Availability and liability</h2>
-<p>The Tool is provided "as is", for the operator's own use. There is no service level, no warranty and no liability toward third parties, since no third party uses it.</p>
+<p>The Tool is provided "as is", for the operator's own use. There is no service level, no warranty and no liability
+toward third parties, since no third party uses it.</p>
 <h2>6. Changes and termination</h2>
-<p>The operator may change or discontinue the Tool at any time. Authorization granted to the Tool can be revoked at any moment from the TikTok account settings, which immediately ends its access.</p>
+<p>The operator may change or discontinue the Tool at any time. Authorization granted to the Tool can be revoked at any
+moment from the TikTok account settings, which immediately ends its access.</p>
 <h2>7. Governing law</h2>
 <p>These terms are governed by the laws of the Federative Republic of Brazil.</p>
-<footer>Filosofia e IA — Publisher · single-creator publishing tool for
-<a href="https://www.tiktok.com/@prof.edson.almeida">@prof.edson.almeida</a> ·
-contact: <a href="mailto:filosofoedson@gmail.com">filosofoedson@gmail.com</a></footer>
-</main></body>
-</html>
+</div></main>
+<footer class="bot"><div class="wrap"><img src="icon-180.png" alt=""><span>Filosofia e IA — Publisher · publishing tool of the educational channel <a href="https://www.tiktok.com/@prof.edson.almeida">@prof.edson.almeida</a></span><span><a href="https://edsonflor.github.io/tiktok-app-legal/terms.html">Terms</a> · <a href="https://edsonflor.github.io/tiktok-app-legal/privacy.html">Privacy</a> · <a href="mailto:filosofoedson@gmail.com">filosofoedson@gmail.com</a></span></div></footer>
+</body></html>

@@ -1,65 +1,102 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Filosofia e IA Publisher</title>
-<style>
-:root { color-scheme: light dark; }
-* { box-sizing: border-box; }
-body { margin: 0; padding: 2.5rem 1.25rem 4rem; font: 16px/1.65 -apple-system, BlinkMacSystemFont,
-  "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1a1a1a; background: #fdfdfc; }
-main { max-width: 44rem; margin: 0 auto; }
-h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 1.5rem; }
-h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem; }
-p, li { color: #26262b; }
-a { color: #1c5fd6; }
-code { background: #f0f0ee; padding: .1em .35em; border-radius: 3px; font-size: .9em; }
-table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; font-size: .94rem; }
-th, td { border: 1px solid #dcdcd8; padding: .55rem .7rem; text-align: left; vertical-align: top; }
-th { background: #f5f5f2; }
-.meta { color: #6b6b73; font-size: .92rem; border-bottom: 1px solid #e4e4e0; padding-bottom: 1.25rem; }
-nav { margin-bottom: 2rem; font-size: .94rem; }
-footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #e4e4e0;
-  color: #6b6b73; font-size: .88rem; }
-@media (prefers-color-scheme: dark) {
-  body { background: #16161a; color: #e8e8ea; }
-  p, li { color: #d6d6da; }
-  a { color: #8ab4ff; }
-  code { background: #26262c; }
-  th, td { border-color: #33333a; } th { background: #1f1f25; }
-  .meta, footer { color: #9a9aa3; border-color: #2a2a31; }
-}
-</style>
-</head>
-<body><main>
-<nav><a href="./">Home</a> · <a href="terms.html">Terms of Service</a> · <strong>Privacy Policy</strong></nav>
-<h1>Privacy Policy — "Filosofia e IA — Publisher"</h1>
-<p class="meta"><strong>Last updated:</strong> September 10, 2026 <strong>Controller:</strong> Edson Almeida, individual creator, Brazil <strong>Contact:</strong> filosofoedson@gmail.com</p>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Filosofia e IA — Publisher</title>
+<meta name="description" content="Publishing and analytics tool of the educational TikTok channel @prof.edson.almeida — philosophy and artificial intelligence.">
+<link rel="icon" type="image/png" sizes="64x64" href="icon-64.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#121c2e">
+<style>:root{color-scheme:light dark;--bg:#fbfaf7;--fg:#1a1f2b;--mut:#5f6472;--card:#fff;--line:#e6e3dc;
+--navy:#121c2e;--gold:#c8912f;--gold2:#e2b454;--teal:#2a93a8;--code:#f1efe9}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--teal)}code{font-size:.88em;background:var(--code);padding:.1em .35em;border-radius:4px}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1rem}
+header.top{background:var(--navy);color:#f3ecdc}
+header.top .wrap{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap;padding-top:.8rem;padding-bottom:.8rem}
+.brand{display:flex;align-items:center;gap:.6rem;color:#f3ecdc;text-decoration:none;font-weight:650;margin-right:auto}
+.brand img{width:36px;height:36px;border-radius:8px}
+nav.menu{display:flex;flex-wrap:wrap;gap:.2rem .9rem;font-size:.93rem}
+nav.menu a{color:#d9d2c2;text-decoration:none;padding:.15rem 0;border-bottom:2px solid transparent}
+nav.menu a:hover{color:#fff}nav.menu a.on{color:var(--gold2);border-bottom-color:var(--gold2)}
+.hero{background:linear-gradient(180deg,var(--navy),#1a2740);color:#f3ecdc;padding:3.2rem 0 3.6rem}
+.hero .wrap{display:flex;gap:2rem;align-items:center;flex-wrap:wrap}
+.hero img{width:132px;height:132px;border-radius:26px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.hero h1{font-size:2.1rem;line-height:1.2;margin:0 0 .5rem;color:#fff}
+.hero p{margin:0 0 1.3rem;color:#d9d2c2;max-width:36rem;font-size:1.06rem}
+.hero .txt{flex:1;min-width:16rem}
+.btn{display:inline-block;padding:.6rem 1.1rem;border-radius:8px;text-decoration:none;font-weight:600;margin:0 .5rem .5rem 0;border:1px solid var(--gold2)}
+.btn.p{background:var(--gold2);color:#1a1405}.btn.s{color:var(--gold2)}
+main{padding:2.4rem 0 1rem}
+main h1{font-size:1.8rem;line-height:1.25;margin:0 0 .4rem}
+h2{font-size:1.3rem;margin:2.4rem 0 .8rem}h3{font-size:1.02rem;margin:0 0 .35rem}
+.lead{color:var(--mut);font-size:1.05rem;margin:0 0 1.6rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:1rem}
+.grid.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.2rem}
+.card p{margin:0;color:var(--mut);font-size:.95rem}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:.8rem}
+.steps li{counter-increment:s;position:relative;padding:.9rem 1rem .9rem 3.4rem;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.steps li:before{content:counter(s);position:absolute;left:1rem;top:.9rem;width:1.6rem;height:1.6rem;border-radius:50%;background:var(--navy);color:var(--gold2);font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+.steps li p{margin:0;color:var(--mut);font-size:.95rem}
+table{border-collapse:collapse;width:100%;font-size:.93rem;background:var(--card)}
+th,td{text-align:left;padding:.55rem .7rem;border:1px solid var(--line);vertical-align:top}
+th{background:var(--code);font-weight:600}td.n{text-align:right;font-variant-numeric:tabular-nums}
+.tbl{overflow-x:auto}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.75rem 1rem;margin:0 0 .6rem}
+summary{cursor:pointer;font-weight:600}details p{margin:.6rem 0 0;color:var(--mut)}
+.meta{color:var(--mut);font-size:.92rem;border-bottom:1px solid var(--line);padding-bottom:1rem}
+.legal p,.legal li{max-width:46rem}
+button{font:inherit;padding:.55rem 1rem;border:1px solid var(--navy);background:var(--navy);color:#fff;border-radius:8px;cursor:pointer}
+button:disabled{opacity:.55;cursor:default}
+select{font:inherit;padding:.45rem .5rem;border:1px solid var(--line);border-radius:8px;max-width:100%;background:var(--card);color:inherit}
+.row{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}.sub{color:var(--mut)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.2rem;margin-bottom:1rem}
+.panel h2{margin-top:0}
+footer.bot{margin-top:3rem;background:var(--navy);color:#b9b2a3;font-size:.9rem}
+footer.bot .wrap{display:flex;gap:1rem 2rem;flex-wrap:wrap;align-items:center;padding-top:1.4rem;padding-bottom:1.4rem}
+footer.bot img{width:28px;height:28px;border-radius:6px}footer.bot a{color:#e2d7bd}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#10141d;--fg:#e8e6e1;--mut:#a3a7b3;--card:#171d29;--line:#2a3140;--code:#222a38;--teal:#6cc3d6}}
+@media(max-width:560px){.hero h1{font-size:1.65rem}.hero img{width:96px;height:96px}}</style></head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app"><img src="icon-180.png" alt="Filosofia e IA owl logo"><span>Filosofia e IA — Publisher</span></a><nav class="menu"><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app">Home</a><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app?page=how">How it works</a><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app?page=console">Console</a><a href="https://auto-videos-n8n.seocl9.easypanel.host/webhook/tiktok-app?page=about">About</a><a href="https://edsonflor.github.io/tiktok-app-legal/terms.html">Terms</a><a href="https://edsonflor.github.io/tiktok-app-legal/privacy.html" class="on">Privacy</a></nav></div></header>
+<main class="legal"><div class="wrap">
+<h1>Privacy Policy</h1>
+<p class="meta"><strong>Last updated:</strong> September 23, 2026 · <strong>Controller:</strong> Edson Almeida, individual creator,
+Brazil · <strong>Contact:</strong> filosofoedson@gmail.com</p>
 <h2>1. Scope</h2>
-<p>This policy covers "Filosofia e IA — Publisher" (the "Tool"), a private publishing tool used by one creator on his own social media accounts, including the TikTok account <code>@prof.edson.almeida</code>.</p>
-<p><strong>The Tool has no users other than its operator.</strong> It does not offer sign-up, does not host accounts and does not process personal data of third parties.</p>
+<p>This policy covers "Filosofia e IA — Publisher" (the "Tool"), a private publishing tool used by one creator on the
+creator's own social media accounts, including the TikTok account <code>@prof.edson.almeida</code>.</p>
+<p><strong>The Tool has no users other than its operator.</strong> It does not offer sign-up, does not host accounts and
+does not process personal data of third parties.</p>
 <h2>2. What data the Tool accesses</h2>
 <p>With the account holder's explicit authorization, and only for the operator's own account:</p>
-<table><thead><tr><th>Data</th><th>Why</th><th>Where it is stored</th></tr></thead><tbody><tr><td>Basic account info (open id, display name, avatar)</td><td>to identify the authorized account before publishing</td><td>access token stored as an environment variable in the operator's private server</td></tr><tr><td>Video metadata of the operator's own posts (id, caption, publish date)</td><td>to match a published video with the internal production record</td><td>Supabase database, private, owned by the operator</td></tr><tr><td>Performance metrics of the operator's own posts (views, reach, watch time, completion rate, likes, comments, shares, impression sources, audience countries in aggregate form)</td><td>to decide which topics and formats to produce next</td><td>same database</td></tr></tbody></table>
-<p>The Tool <strong>never</strong> accesses data about other TikTok users, their profiles, their content or their private information. Audience data is only ever handled in the aggregate form the platform itself returns (for example, "share of views by country"), never at the level of an identifiable person.</p>
+<div class="tbl"><table><thead><tr><th>Data</th><th>Why</th><th>Where it is stored</th></tr></thead><tbody>
+<tr><td>Basic account info (open id, display name, avatar)</td><td>to identify the authorized account before publishing</td><td>access token stored as an environment variable in the operator's private server</td></tr>
+<tr><td>Video metadata of the operator's own posts (id, caption, publish date)</td><td>to match a published video with the internal production record</td><td>Supabase database, private, owned by the operator</td></tr>
+<tr><td>Performance metrics of the operator's own posts (views, reach, watch time, completion rate, likes, comments, shares, impression sources, audience countries in aggregate form)</td><td>to decide which topics and formats to produce next</td><td>same database</td></tr>
+</tbody></table></div>
+<p>The Tool <strong>never</strong> accesses data about other TikTok users, their profiles, their content or their private
+information. Audience data is only ever handled in the aggregate form the platform itself returns (for example, "share of
+views by country"), never at the level of an identifiable person.</p>
 <h2>3. How the data is stored and protected</h2>
-<ul><li>Data lives in a private Supabase (PostgreSQL) project and in a private n8n instance, both accessible</li></ul>
-<p>only to the operator, over TLS.</p>
-<ul><li>Access tokens and API secrets are stored as environment variables, never in source code, and are</li></ul>
-<p>rotated when there is any suspicion of exposure.</p>
-<ul><li>Nothing is shared with, sold to, or transferred to third parties. There is no advertising, no</li></ul>
-<p>profiling of other people, and no data broker involved.</p>
+<ul><li>Data lives in a private Supabase (PostgreSQL) project and in a private n8n instance, both accessible only to the
+operator, over TLS.</li>
+<li>Access tokens and API secrets are stored as environment variables, never in source code, and are rotated when there is
+any suspicion of exposure.</li>
+<li>Nothing is shared with, sold to, or transferred to third parties. There is no advertising, no profiling of other
+people, and no data broker involved.</li></ul>
 <h2>4. Retention</h2>
-<p>Metrics of the operator's own posts are retained while the channel is active, because the whole point of collecting them is to compare performance over time. Access tokens are deleted when authorization is revoked. Any data can be deleted on request to the contact address above.</p>
+<p>Metrics of the operator's own posts are retained while the channel is active, because the whole point of collecting
+them is to compare performance over time. Access tokens are deleted when authorization is revoked. Any data can be deleted
+on request to the contact address above.</p>
 <h2>5. Your rights</h2>
-<p>Because the only person whose data is processed is the operator himself, there is no third-party data subject. Even so, any question about this policy can be sent to filosofoedson@gmail.com and will be answered.</p>
+<p>Because the only person whose data is processed is the operator, there is no third-party data subject. Even so, any
+question about this policy can be sent to filosofoedson@gmail.com and will be answered.</p>
 <h2>6. Revoking access</h2>
-<p>Authorization can be revoked at any time in the TikTok app, under Settings and privacy → Security and permissions → Manage app permissions. Revocation immediately stops all access by the Tool.</p>
+<p>Authorization can be revoked at any time in the TikTok app, under Settings and privacy → Security and permissions →
+Manage app permissions. Revocation immediately stops all access by the Tool.</p>
 <h2>7. Changes</h2>
 <p>Changes to this policy are published on this page with a new "last updated" date.</p>
-<footer>Filosofia e IA — Publisher · single-creator publishing tool for
-<a href="https://www.tiktok.com/@prof.edson.almeida">@prof.edson.almeida</a> ·
-contact: <a href="mailto:filosofoedson@gmail.com">filosofoedson@gmail.com</a></footer>
-</main></body>
-</html>
+</div></main>
+<footer class="bot"><div class="wrap"><img src="icon-180.png" alt=""><span>Filosofia e IA — Publisher · publishing tool of the educational channel <a href="https://www.tiktok.com/@prof.edson.almeida">@prof.edson.almeida</a></span><span><a href="https://edsonflor.github.io/tiktok-app-legal/terms.html">Terms</a> · <a href="https://edsonflor.github.io/tiktok-app-legal/privacy.html">Privacy</a> · <a href="mailto:filosofoedson@gmail.com">filosofoedson@gmail.com</a></span></div></footer>
+</body></html>
